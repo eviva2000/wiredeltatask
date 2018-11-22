@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+header h1 {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.color-pick {
+  display: flex;
+  padding-top: 1em;
+}
+#btn,
+#submit {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 2.2em;
+  width: 8em;
+}
+
+main,
+.customize {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+table {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.color-pick form {
+  padding-right: 2.1em;
+}
+.customize {
+  padding-top: 3em;
+}
+#newtitle {
+  width: 50%;
+}
+.second {
+  transform: translate(-900px);
+  position: absolute;
+  top: 13.5em;
+}
+/* //second table animation */
+.animateme {
+  animation: reveal 0.5s ease-in forwards;
+}
+@keyframes reveal {
+  to {
+    transform: translate(-500px);
+  }
+}
+#tomorrow {
+  left: -26px;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 19em;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 1em;
+  cursor: pointer;
+}

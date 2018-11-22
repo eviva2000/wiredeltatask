@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Poppins|Sedgwick+Ave"
+      rel="stylesheet"
+    />
+    <title>My day</title>
+  </head>
+  <body>
+    <main>
+      <header><h1>My day</h1></header>
+      <h3>Todays is <span id="day"></span></h3>
+      <h4>Current time : <span id="timewrapper"></span></h4>
+      <div id="tomorrow"><p>Tomorrow tasks</p></div>
+      <table>
+        <tr>
+          <th>Task</th>
+          <th>Time</th>
+        </tr>
+
+        <tr>
+          <td id="p1"></td>
+          <td id="p2"></td>
+        </tr>
+      </table>
+
+      <template id="description">
+        <h3 id="des"></h3>
+      </template>
+      <template id="time">
+        <h3 id="when"></h3>
+      </template>
+
+      <!-- second table for tomorrow tasks -->
+      <table class="second ">
+        <tr>
+          <th>Task</th>
+          <th>Time</th>
+        </tr>
+
+        <tr>
+          <td id="p3"></td>
+          <td id="p4"></td>
+        </tr>
+      </table>
+
+      <!-- second templates for tomorrow tasks -->
+      <template id="description1">
+        <h3 id="des1"></h3>
+      </template>
+      <template id="time1">
+        <h3 id="when1"></h3>
+      </template>
+
+      <section class="customize">
+        <h4>Customize me</h4>
+
+        <form>
+          <input
+            id="newtitle"
+            type="text"
+            placeholder="Change title"
+            name="title"
+          />
+          <input id="submit" type="submit" value="Set the title" />
+        </form>
+        <div class="color-pick">
+          <form>
+            <select id="mySelect">
+              <option value="beige" selected="selected">Beige</option>
+              <option value="pink">Pink</option>
+              <option value="lightgreen">Lightgreen</option>
+              <option value="violet">Violet</option>
+            </select>
+          </form>
+          <button id="btn" type="button" onclick="changingTheBackground()">
+            Set the color
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
