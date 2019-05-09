@@ -3,7 +3,7 @@ This is a project for experimenting few features of javaScript. It grabes data f
 
 # Instalation
 ````
-$https://github.com/eviva2000/wiredeltatask.git .
-```
+$ git clone https://github.com/eviva2000/wiredeltatask.git .
+
 
 
